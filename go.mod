@@ -1,3 +1,3 @@
-module this/repo/mcp-stdio-dev
+module github.com/strowk/mcptee
 
 go 1.23.3
