@@ -6,6 +6,15 @@ Before every "in:", tool would print `---` and endline that would make file mult
 
 This could be pretty handy for testing and troubleshooting MCP clients and servers.
 
+## Installation
+
+Download prebulit binaries from the [releases](https://github.com/strowk/mcptee/releases) page and put in your PATH, or build from source:
+
+```bash
+go get github.com/strowk/mcptee
+go install github.com/strowk/mcptee
+```
+
 ## Usage
 
 ```bash
