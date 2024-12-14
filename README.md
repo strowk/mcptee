@@ -21,9 +21,24 @@ go install github.com/strowk/mcptee
 mcptee <out-file> <command> [args...]
 ```
 
-For example:
+Some examples:
 ```bash
 mcptee ./server_log.yaml mcp-k8s-go
+
+mcptee ./server_log.yaml npx @strowk/mcp-k8s
+```
+
+You would probably configure it with corresponding client. For example, with Claude:
+
+```json
+{
+    "mcpServers": {
+        "my_server": {
+            "command": "mcptee",
+            "args": ["/path/to/log_file.yaml", "npx", "my_mcp_server"]
+        }
+    }
+}
 ```
 
 ## Example
