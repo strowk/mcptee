@@ -104,4 +104,4 @@ func main() {
 // examples:
 // go run main.go test.yaml go run -C C:/work/mcp-k8s-go main.go
 // go run main.go test.yaml mcp-k8s-go
-// mcp-stdio-dev test.yaml mcp-k8s-go
+// mcptee test.yaml mcp-k8s-go
