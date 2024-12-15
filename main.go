@@ -2,7 +2,9 @@ package main
 
 import (
 	"bufio"
+	"errors"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"os/exec"
@@ -69,14 +71,15 @@ func main() {
 		for {
 			line, err := reader.ReadString('\n')
 			if err != nil {
+				if errors.Is(err, io.EOF) {
+					break
+				}
 				log.Printf("Error reading command output: %s\n", err)
 				break
 			}
 			fmt.Fprintf(logOut, "out: %s", line)
 			fmt.Print(line)
-			fmt.Println()
 		}
-
 	}()
 
 	err = cmd.Start()
