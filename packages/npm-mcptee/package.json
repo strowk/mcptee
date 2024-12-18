@@ -1,0 +1,29 @@
+{
+  "name": "@strowk/mcptee",
+  "version": "0.0.1-beta.1",
+  "main": "./index.js",
+  "bin": {
+    "mcptee": "bin/cli"
+  },
+  "optionalDependencies": {
+    "@strowk/mcptee-darwin-x64": "0.0.1-beta.1",
+    "@strowk/mcptee-darwin-arm64": "0.0.1-beta.1",
+    "@strowk/mcptee-linux-x64": "0.0.1-beta.1",
+    "@strowk/mcptee-linux-arm64": "0.0.1-beta.1",
+    "@strowk/mcptee-win32-x64": "0.0.1-beta.1",
+    "@strowk/mcptee-win32-arm64": "0.0.1-beta.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strowk/mcptee-go.git"
+  },
+  "keywords": [
+    "MCP"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strowk/mcptee-go/issues"
+  },
+  "homepage": "https://github.com/strowk/mcptee-go#readme",
+  "description": "mcptee - Windows ARM64 build"
+}

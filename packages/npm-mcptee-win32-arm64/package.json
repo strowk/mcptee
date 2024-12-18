@@ -1,0 +1,23 @@
+{
+  "name": "@strowk/mcptee-win32-arm64",
+  "version": "0.0.1-beta.1",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strowk/mcptee-go.git"
+  },
+  "keywords": [
+    "MCP"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strowk/mcptee-go/issues"
+  },
+  "homepage": "https://github.com/strowk/mcptee-go#readme",
+  "description": "mcptee - Windows ARM64 build"
+}

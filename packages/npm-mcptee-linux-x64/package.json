@@ -1,0 +1,24 @@
+{
+  "name": "@strowk/mcptee-linux-x64",
+  "version": "0.0.1-beta.1",
+  "os": [
+    "linux",
+    "freebsd"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strowk/mcptee-go.git"
+  },
+  "keywords": [
+    "MCP"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strowk/mcptee-go/issues"
+  },
+  "homepage": "https://github.com/strowk/mcptee-go#readme",
+  "description": "mcptee - Linux x64 build"
+}
