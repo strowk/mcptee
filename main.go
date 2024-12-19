@@ -30,7 +30,7 @@ func main() {
 	// Open the output file
 	logOut, err := os.Create(outFile)
 	if err != nil {
-		fmt.Printf("Error: %s\n", err)
+		log.Printf("Error: %s\n", err)
 		os.Exit(1)
 	}
 	defer logOut.Close()
@@ -40,7 +40,7 @@ func main() {
 
 	cmdin, err := cmd.StdinPipe()
 	if err != nil {
-		fmt.Printf("Error: %s\n", err)
+		log.Printf("Error: %s\n", err)
 		os.Exit(1)
 	}
 
@@ -61,7 +61,7 @@ func main() {
 
 	cmdOut, err := cmd.StdoutPipe()
 	if err != nil {
-		fmt.Printf("Error: %s\n", err)
+		log.Printf("Error: %s\n", err)
 		os.Exit(1)
 	}
 
@@ -84,7 +84,7 @@ func main() {
 
 	err = cmd.Start()
 	if err != nil {
-		fmt.Printf("Error: %s\n", err)
+		log.Printf("Error: %s\n", err)
 		os.Exit(1)
 	}
 
@@ -93,7 +93,7 @@ func main() {
 
 	// Check for errors
 	if err != nil {
-		fmt.Printf("Error: %s\n", err)
+		log.Printf("Error: %s\n", err)
 		os.Exit(1)
 	}
 
