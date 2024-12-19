@@ -9,15 +9,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strowk/mcptee-go.git"
+    "url": "git+https://github.com/strowk/mcptee.git"
   },
   "keywords": [
     "MCP"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strowk/mcptee-go/issues"
+    "url": "https://github.com/strowk/mcptee/issues"
   },
-  "homepage": "https://github.com/strowk/mcptee-go#readme",
+  "homepage": "https://github.com/strowk/mcptee#readme",
   "description": "mcptee - Windows x64 build"
 }
