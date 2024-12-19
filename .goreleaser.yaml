@@ -57,3 +57,7 @@ git:
   # prerelease versions when calculating the changelog
   # https://github.com/orgs/goreleaser/discussions/4336
     - "{{ if not .Prerelease}}beta{{ end }}"
+  ignore_previous_tags_regex:
+    - "{{ if not .Prerelease}}.*-.*{{ end }}"
+    # this is not an emodji     ^ but rather a regex that matches pre-release versions, which have a dash in them
+
