@@ -52,7 +52,6 @@ release:
   prerelease: auto
   
 git:
-  ignore_previous_tags_regex:
-    - "{{ if not .Prerelease}}.*-.*{{ end }}"
-    # this is not an emodji     ^ but rather a regex that matches pre-release versions, which have a dash in them
+  ignore_tags:
+    - "{{ if not .Prerelease}}*beta*{{ end }}"
 
