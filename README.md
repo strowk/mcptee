@@ -8,7 +8,17 @@ This could be pretty handy for testing and troubleshooting MCP clients and serve
 
 ## Installation
 
-Download prebulit binaries from the [releases](https://github.com/strowk/mcptee/releases) page and put in your PATH, or build from source:
+## npm
+
+```bash
+npm install -g @strowk/mcptee
+```
+
+## Github Releases
+
+Download prebulit binaries from the [releases](https://github.com/strowk/mcptee/releases) page and put in your PATH
+
+## Build from source
 
 ```bash
 go get github.com/strowk/mcptee
