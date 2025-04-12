@@ -21,8 +21,7 @@ Download prebulit binaries from the [releases](https://github.com/strowk/mcptee/
 ## Build from source
 
 ```bash
-go get github.com/strowk/mcptee
-go install github.com/strowk/mcptee
+go install github.com/strowk/mcptee@latest
 ```
 
 ## Usage
